@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\KG">
+      <UniqueIdentifier>{b2fe102d-3e11-45de-932a-730cc16d591b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\KG\Maths">
+      <UniqueIdentifier>{3528ffe6-4998-4534-8c07-fb5161e41c7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\KG\src">
+      <UniqueIdentifier>{96ccec3e-00a5-4c42-98f5-25c7bd86d521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\KG\ObjectProperties">
+      <UniqueIdentifier>{0b66d8d9-3ff8-4376-8e2a-a2b77ad0e4e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\KG\WorldPropeties">
+      <UniqueIdentifier>{b1c7c3a4-160e-473e-92f0-3aaf57286833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\KG\Misc">
+      <UniqueIdentifier>{9f9d12d4-c363-4d0a-a85a-92abf11ce2bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\KG\PlatformSpecific">
+      <UniqueIdentifier>{ca2aaec9-9ad2-4a7a-a301-3bf0a824683e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\KG\Engine Stuff">
+      <UniqueIdentifier>{202cb035-7365-4882-83ac-ca94fa189b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\KG\Shaders">
+      <UniqueIdentifier>{222b2210-97be-497d-acac-5b668c8f85be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="math.h">
+      <Filter>Header Files\KG\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="vectors.h">
+      <Filter>Header Files\KG\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="matricies.h">
+      <Filter>Header Files\KG\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="quaternion.h">
+      <Filter>Header Files\KG\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Header Files\KG\ObjectProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="objectProperties.h">
+      <Filter>Header Files\KG\ObjectProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="objectList.h">
+      <Filter>Header Files\KG\ObjectProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Header Files\KG\WorldPropeties</Filter>
+    </ClInclude>
+    <ClInclude Include="colour.h">
+      <Filter>Header Files\KG\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="platformControl.h">
+      <Filter>Header Files\KG\PlatformSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="osxSupport.h">
+      <Filter>Header Files\KG\PlatformSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="winSupport.h">
+      <Filter>Header Files\KG\PlatformSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="multiPlatformHelper.h">
+      <Filter>Header Files\KG\PlatformSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>Header Files\KG\Engine Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>Header Files\KG\Engine Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsAPI.h">
+      <Filter>Header Files\KG\PlatformSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="testScene.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="testParent.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="testChild.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="loadShadersOGL.h">
+      <Filter>Header Files\KG\PlatformSpecific</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="math.cpp">
+      <Filter>Header Files\KG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>Header Files\KG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="matricies.cpp">
+      <Filter>Header Files\KG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="operators.cpp">
+      <Filter>Header Files\KG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="vectors.cpp">
+      <Filter>Header Files\KG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>Header Files\KG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="objectProperties.cpp">
+      <Filter>Header Files\KG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="objectList.cpp">
+      <Filter>Header Files\KG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Header Files\KG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="colour.cpp">
+      <Filter>Header Files\KG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="winSupport.cpp">
+      <Filter>Header Files\KG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>Header Files\KG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Header Files\KG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="osXSupport.cpp">
+      <Filter>Header Files\KG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="testScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testParent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testChild.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OGL.cpp">
+      <Filter>Header Files\KG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>Header Files\KG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="loadShadersOGL.cpp">
+      <Filter>Header Files\KG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BasicVertex.glsl">
+      <Filter>Header Files\KG\Shaders</Filter>
+    </None>
+    <None Include="BasicFragment.glsl">
+      <Filter>Header Files\KG\Shaders</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,73 @@
+﻿Build started 14/08/2014 12:35:02 AM.
+     1>Project "C:\Users\Alastair\Documents\KGE\KG Engine Base\KG Engine Base.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\KG Engine Base.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         z:\Visual Studio 2010\VC\bin\x86_amd64\CL.exe /c /IC:\Users\Alastair\Documents\KGE\include /Zi /nologo /W3 /WX- /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt OGL.cpp engine.cpp loadShadersOGL.cpp matricies.cpp object.cpp objectList.cpp objectProperties.cpp operators.cpp scene.cpp test.cpp testChild.cpp testParent.cpp testScene.cpp winSupport.cpp
+         OGL.cpp
+         engine.cpp
+         loadShadersOGL.cpp
+         matricies.cpp
+         object.cpp
+     1>object.cpp(81): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 z:\Visual Studio 2010\VC\include\string.h(105) : see declaration of 'strcpy'
+         objectList.cpp
+         objectProperties.cpp
+     1>objectProperties.cpp(46): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 z:\Visual Studio 2010\VC\include\string.h(105) : see declaration of 'strcpy'
+         operators.cpp
+         scene.cpp
+         test.cpp
+         testChild.cpp
+         testParent.cpp
+     1>testParent.cpp(20): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 z:\Visual Studio 2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         testScene.cpp
+         winSupport.cpp
+       Link:
+         z:\Visual Studio 2010\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Alastair\Documents\KGE\x64\Release\KG Engine Base.exe" /NOLOGO /LIBPATH:C:\Users\Alastair\Documents\KGE\lib64 opengl32.lib glu32.lib glew32s.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\KG Engine Base.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Alastair\Documents\KGE\x64\Release\KG Engine Base.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alastair\Documents\KGE\x64\Release\KG Engine Base.lib" /MACHINE:X64 x64\Release\colour.obj
+         x64\Release\DirectX.obj
+         x64\Release\engine.obj
+         x64\Release\keyboard.obj
+         x64\Release\loadShadersOGL.obj
+         x64\Release\math.obj
+         x64\Release\matricies.obj
+         x64\Release\object.obj
+         x64\Release\objectList.obj
+         x64\Release\objectProperties.obj
+         x64\Release\OGL.obj
+         x64\Release\operators.obj
+         x64\Release\osXSupport.obj
+         x64\Release\Quaternion.obj
+         x64\Release\scene.obj
+         x64\Release\test.obj
+         x64\Release\testChild.obj
+         x64\Release\testParent.obj
+         x64\Release\testScene.obj
+         x64\Release\vectors.obj
+         x64\Release\winSupport.obj
+         Generating code
+         Finished generating code
+     1>loadShadersOGL.obj : warning LNK4049: locally defined symbol __glewAttachShader imported
+     1>loadShadersOGL.obj : warning LNK4049: locally defined symbol __glewCompileShader imported
+     1>loadShadersOGL.obj : warning LNK4049: locally defined symbol __glewCreateProgram imported
+     1>loadShadersOGL.obj : warning LNK4049: locally defined symbol __glewCreateShader imported
+     1>loadShadersOGL.obj : warning LNK4049: locally defined symbol __glewDeleteShader imported
+     1>loadShadersOGL.obj : warning LNK4049: locally defined symbol __glewGetProgramInfoLog imported
+     1>loadShadersOGL.obj : warning LNK4049: locally defined symbol __glewGetProgramiv imported
+     1>loadShadersOGL.obj : warning LNK4049: locally defined symbol __glewGetShaderInfoLog imported
+     1>loadShadersOGL.obj : warning LNK4049: locally defined symbol __glewGetShaderiv imported
+     1>loadShadersOGL.obj : warning LNK4049: locally defined symbol __glewLinkProgram imported
+     1>loadShadersOGL.obj : warning LNK4049: locally defined symbol __glewShaderSource imported
+     1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\Alastair\Documents\KGE\x64\Release\vc100.pdb'; linking object as if no debug info
+         KG Engine Base.vcxproj -> C:\Users\Alastair\Documents\KGE\x64\Release\KG Engine Base.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Alastair\Documents\KGE\x64\Release\KG Engine Base.exe;#1" /manifest "x64\Release\KG Engine Base.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\KG Engine Base.unsuccessfulbuild".
+         Touching "x64\Release\KG Engine Base.lastbuildstate".
+     1>Done Building Project "C:\Users\Alastair\Documents\KGE\KG Engine Base\KG Engine Base.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.29

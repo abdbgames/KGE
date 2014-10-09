@@ -1,0 +1,33 @@
+﻿Build started 26/09/2014 3:40:58 PM.
+     1>Project "C:\Users\Alastair\Documents\KGE\KG Engine Base\KG Engine Base.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         Z:\Visual Studio 2013\VC\bin\x86_amd64\CL.exe /c /IC:\Users\Alastair\Documents\KGE\include /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt winSupport.cpp
+         winSupport.cpp
+       Link:
+         Z:\Visual Studio 2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Alastair\Documents\KGE\x64\Debug\KG Engine Base.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Alastair\Documents\KGE\lib64 opengl32.lib glu32.lib glew32s.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Alastair\Documents\KGE\x64\Debug\KG Engine Base.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alastair\Documents\KGE\x64\Debug\KG Engine Base.lib" /MACHINE:X64 x64\Debug\colour.obj
+         x64\Debug\DirectX.obj
+         x64\Debug\engine.obj
+         x64\Debug\keyboard.obj
+         x64\Debug\loadShadersOGL.obj
+         x64\Debug\math.obj
+         x64\Debug\matricies.obj
+         x64\Debug\object.obj
+         x64\Debug\objectList.obj
+         x64\Debug\objectProperties.obj
+         x64\Debug\OGL.obj
+         x64\Debug\operators.obj
+         x64\Debug\osXSupport.obj
+         x64\Debug\Quaternion.obj
+         x64\Debug\scene.obj
+         x64\Debug\test.obj
+         x64\Debug\testChild.obj
+         x64\Debug\testParent.obj
+         x64\Debug\testScene.obj
+         x64\Debug\vectors.obj
+         x64\Debug\winSupport.obj
+         KG Engine Base.vcxproj -> C:\Users\Alastair\Documents\KGE\x64\Debug\KG Engine Base.exe
+     1>Done Building Project "C:\Users\Alastair\Documents\KGE\KG Engine Base\KG Engine Base.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.72

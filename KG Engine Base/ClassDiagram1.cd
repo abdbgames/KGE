@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Struct Name="Testchild" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>testChild.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TestParent" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAgAAAAAAAAAAAAAAIAABAAAAAEAAA=</HashCode>
+      <FileName>testParent.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TestScene" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>testScene.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kg::Matrix16" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAACAAAAAAAYAAAAAAgAAAACkAgAAACAAAQAAACxAA=</HashCode>
+      <FileName>matricies.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kg::Quaternion" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAACAAAAAAAAAAQAAA=</HashCode>
+      <FileName>quaternion.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kg::Vector2" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAEAAAAAFQAAAAAAAAAAAACAAAAAAAABgAAAAAAI=</HashCode>
+      <FileName>vectors.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kg::Vector3" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAEAAAIAEQAAAAAAAAAAAACAAAAAAAABgAQAAAAI=</HashCode>
+      <FileName>vectors.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kg::Vector4" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAQAAAAAAhAAAAAAAAAAAAAAhgAQAAAAA=</HashCode>
+      <FileName>vectors.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kg::ObjectList" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAACAEACAAAQAAAAAAAAAAAAAEgAA=</HashCode>
+      <FileName>objectList.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kg::Object" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgIAEhAAAQAAAAUgABAAAAACAAgAAABAAAAEAAAUAAI=</HashCode>
+      <FileName>object.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kg::BaseProperty" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAgABAAAAEAAAEAIA=</HashCode>
+      <FileName>objectProperties.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kg::Transform" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAIAAAAAAAAAACAIAQCAAAAAAAgAAAAAAAkAIA=</HashCode>
+      <FileName>objectProperties.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kg::Camera" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIoAQAAAAAAAwQACAIBAQEAQAQBAAAAAAAAAEgAI=</HashCode>
+      <FileName>objectProperties.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kg::Scene" Collapsed="true">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAgAAAAAAAQAAAAAAAAAAAAAAUAAA=</HashCode>
+      <FileName>scene.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kg::Colour" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAJIAEAAAEAAAAAAQAAAAABAAAAA=</HashCode>
+      <FileName>colour.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kg::Engine" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEwJAAAAAAAAAAAAAACAgEAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>engine.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kg::keyBoardControl" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADAAQAgBAgBIAggRAYRAMR+AADAAAREAEAECAAiAAA=</HashCode>
+      <FileName>keyboard.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="kg::kgColour" Collapsed="true">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>colour.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="VoidF" Collapsed="true">
+    <Position X="12" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>multiPlatformHelper.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="kg::voidMap" Collapsed="true">
+    <Position X="13.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>keyboard.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="kg::kg_renderType" Collapsed="true">
+    <Position X="12" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAABAAAAAAAAAAAAAAABACAAAAAAEIACA=</HashCode>
+      <FileName>object.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kg::kg_camType" Collapsed="true">
+    <Position X="10.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>objectProperties.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
