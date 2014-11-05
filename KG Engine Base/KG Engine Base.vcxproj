@@ -165,9 +165,6 @@
     <ClInclude Include="platformControl.h" />
     <ClInclude Include="quaternion.h" />
     <ClInclude Include="scene.h" />
-    <ClInclude Include="testChild.h" />
-    <ClInclude Include="testParent.h" />
-    <ClInclude Include="testScene.h" />
     <ClInclude Include="vectors.h" />
     <ClInclude Include="winSupport.h" />
   </ItemGroup>
@@ -188,9 +185,6 @@
     <ClCompile Include="Quaternion.cpp" />
     <ClCompile Include="scene.cpp" />
     <ClCompile Include="test.cpp" />
-    <ClCompile Include="testChild.cpp" />
-    <ClCompile Include="testParent.cpp" />
-    <ClCompile Include="testScene.cpp" />
     <ClCompile Include="vectors.cpp" />
     <ClCompile Include="winSupport.cpp" />
   </ItemGroup>

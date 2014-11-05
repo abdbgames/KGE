@@ -60,8 +60,11 @@ namespace kg
 
 	bool ObjectList::addObject(char *name, Object *object)
 	{
+		if (object == NULL)
+			return false;
+
 		// Adds in an Object:
-		if (getObject(name) == NULL)
+		if (getObject<Object>(name) == NULL)
 		{
 			objects.push_back(object);
 			objects[objects.size() - 1]->setName(name);
@@ -75,7 +78,7 @@ namespace kg
 	bool ObjectList::removeObject(char *name)
 	{
 		// Removes an Object:
-		Object *o = getObject(name);
+		Object *o = getObject<Object>(name);
 
 		if (o != NULL)
 		{
@@ -89,6 +92,7 @@ namespace kg
 		return false;
 	}
 
+	template <typename T>
 	Object *ObjectList::getObject(char *name)
 	{
 		// Finds and returns an instance of an Object:
@@ -97,13 +101,13 @@ namespace kg
 		while (i < objects.size() && strcmp(name, objects[i]->getName()) != 0)
 			++i;
 
-		return (i == objects.size()) ? NULL : objects[i];
+		return (i == objects.size()) ? NULL : dynamic_cast<T*>objects[i];
 	}
 
 	bool ObjectList::renameObject(char *name, char *newName)
 	{
 		// Renames an Object, quite a complex process actually... :P
-		Object *o = getObject(name);
+		Object *o = getObject<Object>(name);
 
 		if (o != NULL)
 		{

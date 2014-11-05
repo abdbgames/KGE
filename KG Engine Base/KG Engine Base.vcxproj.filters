@@ -90,15 +90,6 @@
     <ClInclude Include="GraphicsAPI.h">
       <Filter>Header Files\KG\PlatformSpecific</Filter>
     </ClInclude>
-    <ClInclude Include="testScene.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="testParent.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="testChild.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="loadShadersOGL.h">
       <Filter>Header Files\KG\PlatformSpecific</Filter>
     </ClInclude>
@@ -145,15 +136,6 @@
     </ClCompile>
     <ClCompile Include="osXSupport.cpp">
       <Filter>Header Files\KG\src</Filter>
-    </ClCompile>
-    <ClCompile Include="testScene.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="testParent.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="testChild.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="OGL.cpp">
       <Filter>Header Files\KG\src</Filter>

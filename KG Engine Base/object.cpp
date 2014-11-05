@@ -127,7 +127,7 @@ namespace kg
 	bool Object::addProperty(char *name, BaseProperty *propertyType)
 	{
 		// Attaches a property to the Object:
-		BaseProperty *p = getProperty(name);
+		BaseProperty *p = getProperty<BaseProperty>(name);
 
 		if (p == NULL)
 		{
@@ -145,7 +145,7 @@ namespace kg
 	bool Object::removeProperty(char *name)
 	{
 		// Detaches a property from the Object:
-		BaseProperty *p = getProperty(name);
+		BaseProperty *p = getProperty<BaseProperty>(name);
 
 		if (p != NULL)
 			delete p;
@@ -168,19 +168,21 @@ namespace kg
 		return (children != NULL) ? children->removeObject(name) : false;
 	}
 
-	BaseProperty *Object::getProperty(char *name)
+	template <typename T>
+	T *Object::getProperty(char *name)
 	{
-		//Checks if an Object property exists and return a referance to it:
+		// Checks if an Object property exists and return a pointer to it:
 		int i = 0;
 
 		while (i < properties.size() && strcmp(name, properties[i]->getName()) != 0)
 			++i;
 
-		return (i == properties.size()) ? NULL : properties[i];
+		return (i == properties.size()) ? NULL : dynamic_cast<T*>properties[i];
 	}
 
-	Object *Object::getChild(char *name)
+	template <typename T>
+	T *Object::getChild(char *name)
 	{
-		return children->getObject(name);
+		return children->getObject<T>(name);
 	}
 }

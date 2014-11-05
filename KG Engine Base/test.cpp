@@ -1,5 +1,4 @@
 #include "multiPlatformHelper.h"
-#include "testParent.h"
 
 void kg::init()
 {

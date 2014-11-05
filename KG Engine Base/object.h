@@ -58,8 +58,11 @@ namespace kg
 
 		char *getName() {return m_name;}
 
-		BaseProperty *getProperty(char *name);
-		Object *getChild(char *name);
+		template <typename T>
+		T *getProperty(char *name);
+
+		template <typename T>
+		T *getChild(char *name);
 
 		// Virtual Methods:
 		virtual void start() {}

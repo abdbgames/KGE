@@ -42,7 +42,8 @@ namespace kg
 		bool removeObject(char *name);
 		bool renameObject(char *name, char *newName);
 
-		Object *getObject(char *name);
+		template <typename T>
+		T *getObject(char *name);
 
 	protected:
 		// Protected Members:
